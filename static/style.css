@@ -1,0 +1,34 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.personality-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-left: 4px solid #4a90e2;
+}
+
+.track-item {
+    background: #f8f9fa;
+    transition: transform 0.2s;
+}
+
+.track-item:hover {
+    transform: translateX(10px);
+    background: #ffffff;
+}
+
+.analysis-section {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.track-number {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-right: 10px;
+}
