@@ -1,7 +1,7 @@
 # Spotify Personality Test  
 
 ## Overview  
-The **Spotify Personality Test** is a web application that analyzes a user's top Spotify tracks and generates a personality prediction based on music psychology. Using the Spotify API and an AI model (LLaMA 3), this project correlates musical preferences with personality traits using the Big Five OCEAN model.  
+The **Spotify Personality Test** is a web application that analyzes a user's top Spotify tracks and generates a personality prediction based on music preferences. Using the Spotify API and an AI model (LLaMA 3), this project correlates musical preferences with personality traits.  
 
 ## Features  
 - Spotify authentication to access user listening history  
@@ -13,8 +13,8 @@ The **Spotify Personality Test** is a web application that analyzes a user's top
 - **Python (Flask)** – Backend web framework  
 - **Spotify API** – Fetching user listening history  
 - **Spotipy** – Python wrapper for Spotify API  
-- **Ollama** – Running the LLaMA 3 AI model locally  
-- **HTML, CSS (Jinja Templates)** – Frontend rendering  
+- **Ollama** – Running the LLaMA 3 model locally  
+- **HTML, CSS** – Frontend rendering  
 - **dotenv** – Secure environment variable management  
 
 ## Setup & Installation  
@@ -40,7 +40,7 @@ SPOTIPY_CLIENT_SECRET=your_spotify_client_secret
 FLASK_SECRET_KEY=your_secret_key  
 ```
 
-### 4.Run the application
+### 4. Run the application
 ```bash
 flask run  
 ```
